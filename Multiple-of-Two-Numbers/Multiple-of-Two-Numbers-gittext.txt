@@ -1,0 +1,259 @@
+
+Pranau@Pranau-T410 MINGW64 ~/Desktop
+$ cd e
+bash: cd: e: No such file or directory
+
+Pranau@Pranau-T410 MINGW64 ~/Desktop
+$ pwd
+/c/Users/Pranau/Desktop
+
+Pranau@Pranau-T410 MINGW64 ~/Desktop
+$ cd ..
+
+Pranau@Pranau-T410 MINGW64 ~
+$ cd e
+bash: cd: e: No such file or directory
+
+Pranau@Pranau-T410 MINGW64 ~
+$ cd ..
+
+Pranau@Pranau-T410 MINGW64 /c/Users
+$ cd c
+bash: cd: c: No such file or directory
+
+Pranau@Pranau-T410 MINGW64 /c/Users
+$ cd ..
+
+Pranau@Pranau-T410 MINGW64 /c
+$ cd ..
+
+Pranau@Pranau-T410 MINGW64 /
+$ cd ..
+
+Pranau@Pranau-T410 MINGW64 /
+$ cd e
+
+Pranau@Pranau-T410 MINGW64 /e
+$ cd Training
+
+Pranau@Pranau-T410 MINGW64 /e/Training
+$ cd GitHub/
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub
+$ git clone /e/Training/20220222_Training/Multiple-of-Two-Numbers
+Cloning into 'Multiple-of-Two-Numbers'...
+fatal: 'E:/Training/20220222_Training/Multiple-of-Two-Numbers' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub
+$ ls
+Git_Learning/  Week1/
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub
+$ cd Git_Learning/
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Git_Learning
+$ cd ..
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub
+$ ls
+Git_Learning/  Multiple-of-Two-Numbers/  Week1/
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub
+$ cd Multiple-of-Two-Numbers/
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers
+$ git clone /e/Training/20220222_Training/Multiple-of-Two-Numbers
+Cloning into 'Multiple-of-Two-Numbers'...
+fatal: 'E:/Training/20220222_Training/Multiple-of-Two-Numbers' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers
+$ ls
+App/  Docs/  src/
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers
+$ git clone https://github.com/Pranau-R/Multiple-of-Two-Numbers.git
+Cloning into 'Multiple-of-Two-Numbers'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers
+$ ls
+App/  Docs/  Multiple-of-Two-Numbers/  src/
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers
+$ cd Multiple-of-Two-Numbers/
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (main)
+$ git checkout -b issue1
+Switched to a new branch 'issue1'
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ ls
+README.md
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ git status
+On branch issue1
+nothing to commit, working tree clean
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ git status
+On branch issue1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+        App/
+        Docs/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ cd ..
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers
+$ cd ..
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub
+$ cd ..
+
+Pranau@Pranau-T410 MINGW64 /e/Training
+$ cd GitHub/
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub
+$ ls
+Git_Learning/  Multiple-of-Two-Numbers/  Week1/
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub
+$ cd Multiple-of-Two-Numbers/
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers
+$ git clone https://github.com/Pranau-R/Multiple-of-Two-Numbers.git
+Cloning into 'Multiple-of-Two-Numbers'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers
+$ ls
+Multiple-of-Two-Numbers/
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers
+$ cd Multiple-of-Two-Numbers/
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (main)
+$ git checkout -b issue1
+Switched to a new branch 'issue1'
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ ls
+README.md
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ git status
+On branch issue1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Multiple-of-Two-Numbers/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ ls
+Multiple-of-Two-Numbers/  README.md
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ git add README.md
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ git add Multiple-of-Two-Numbers/
+warning: LF will be replaced by CRLF in Multiple-of-Two-Numbers/.vscode/c_cpp_properties.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Multiple-of-Two-Numbers/.vscode/launch.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Multiple-of-Two-Numbers/.vscode/settings.json.
+The file will have its original line endings in your working directory
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ git status
+On branch issue1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Multiple-of-Two-Numbers/.vscode/c_cpp_properties.json
+        new file:   Multiple-of-Two-Numbers/.vscode/launch.json
+        new file:   Multiple-of-Two-Numbers/.vscode/settings.json
+        new file:   Multiple-of-Two-Numbers/App/Multiple-of-Two-Numbers.exe
+        new file:   Multiple-of-Two-Numbers/Docs/Multiple-of-Two-Numbers-FL.docx
+        new file:   Multiple-of-Two-Numbers/Docs/Multiple-of-Two-Numbers-OP.docx
+        new file:   Multiple-of-Two-Numbers/src/Multiple-of-Two-Numbers.c
+        modified:   README.md
+
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ git diff
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ git commit -m '#1: contains all files regarding exact multiple of two numbers program'
+[issue1 a45dffe] #1: contains all files regarding exact multiple of two numbers program
+ 8 files changed, 101 insertions(+), 1 deletion(-)
+ create mode 100644 Multiple-of-Two-Numbers/.vscode/c_cpp_properties.json
+ create mode 100644 Multiple-of-Two-Numbers/.vscode/launch.json
+ create mode 100644 Multiple-of-Two-Numbers/.vscode/settings.json
+ create mode 100644 Multiple-of-Two-Numbers/App/Multiple-of-Two-Numbers.exe
+ create mode 100644 Multiple-of-Two-Numbers/Docs/Multiple-of-Two-Numbers-FL.docx
+ create mode 100644 Multiple-of-Two-Numbers/Docs/Multiple-of-Two-Numbers-OP.docx
+ create mode 100644 Multiple-of-Two-Numbers/src/Multiple-of-Two-Numbers.c
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ git status
+On branch issue1
+nothing to commit, working tree clean
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ git push
+fatal: The current branch issue1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin issue1
+
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$ git push --set-upstream origin issue1
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 385.03 KiB | 3.10 MiB/s, done.
+Total 15 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'issue1' on GitHub by visiting:
+remote:      https://github.com/Pranau-R/Multiple-of-Two-Numbers/pull/new/issue1
+remote:
+To https://github.com/Pranau-R/Multiple-of-Two-Numbers.git
+ * [new branch]      issue1 -> issue1
+branch 'issue1' set up to track 'origin/issue1'.
+
+Pranau@Pranau-T410 MINGW64 /e/Training/GitHub/Multiple-of-Two-Numbers/Multiple-of-Two-Numbers (issue1)
+$
